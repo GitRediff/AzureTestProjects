@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{0A87348C-007F-43C5-9F99-53C6C706F6DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCWebAppOne", "MVC\MVCWebAppOne\MVCWebAppOne.csproj", "{181257F7-1BC8-43B2-AE2E-16CED0DE0CCE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{181257F7-1BC8-43B2-AE2E-16CED0DE0CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{181257F7-1BC8-43B2-AE2E-16CED0DE0CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{181257F7-1BC8-43B2-AE2E-16CED0DE0CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{181257F7-1BC8-43B2-AE2E-16CED0DE0CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{181257F7-1BC8-43B2-AE2E-16CED0DE0CCE} = {0A87348C-007F-43C5-9F99-53C6C706F6DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B69DC1E5-6EF9-4006-A6C6-EF331ECE814B}
