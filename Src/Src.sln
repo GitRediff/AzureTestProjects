@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcWebAppTwo", "MVC\MvcWebA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{426CE543-882C-496B-A5CF-370E31273CAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudOpsCoreVersion6", "WebApi\CrudOpsCoreVersion6\CrudOpsCoreVersion6.csproj", "{FB85B4CE-5229-4CC4-A08D-224A680E4407}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{3C2757A4-C7E4-4DFB-B4D9-B504970CAA03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C2757A4-C7E4-4DFB-B4D9-B504970CAA03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C2757A4-C7E4-4DFB-B4D9-B504970CAA03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB85B4CE-5229-4CC4-A08D-224A680E4407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB85B4CE-5229-4CC4-A08D-224A680E4407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB85B4CE-5229-4CC4-A08D-224A680E4407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB85B4CE-5229-4CC4-A08D-224A680E4407}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{181257F7-1BC8-43B2-AE2E-16CED0DE0CCE} = {0A87348C-007F-43C5-9F99-53C6C706F6DD}
 		{3C2757A4-C7E4-4DFB-B4D9-B504970CAA03} = {0A87348C-007F-43C5-9F99-53C6C706F6DD}
+		{FB85B4CE-5229-4CC4-A08D-224A680E4407} = {426CE543-882C-496B-A5CF-370E31273CAA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B69DC1E5-6EF9-4006-A6C6-EF331ECE814B}
