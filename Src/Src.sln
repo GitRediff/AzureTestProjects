@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{7534
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusSend", "Console\ServiceBusSend\ServiceBusSend.csproj", "{F9AEC90D-4731-4867-A3A6-A3122CE35D09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusReceive", "Console\ServiceBusReceive\ServiceBusReceive.csproj", "{A61BC5A7-2286-4708-B045-FF1DC58DB4C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{F9AEC90D-4731-4867-A3A6-A3122CE35D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9AEC90D-4731-4867-A3A6-A3122CE35D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9AEC90D-4731-4867-A3A6-A3122CE35D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A61BC5A7-2286-4708-B045-FF1DC58DB4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61BC5A7-2286-4708-B045-FF1DC58DB4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61BC5A7-2286-4708-B045-FF1DC58DB4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61BC5A7-2286-4708-B045-FF1DC58DB4C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{FB85B4CE-5229-4CC4-A08D-224A680E4407} = {426CE543-882C-496B-A5CF-370E31273CAA}
 		{A5D67E6A-038A-48FA-9355-A3A09EB410F4} = {8F207A85-899A-44BE-8D6B-9DB6A295469C}
 		{F9AEC90D-4731-4867-A3A6-A3122CE35D09} = {7534AA75-BC03-4229-9990-ECBC66603FE3}
+		{A61BC5A7-2286-4708-B045-FF1DC58DB4C0} = {7534AA75-BC03-4229-9990-ECBC66603FE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B69DC1E5-6EF9-4006-A6C6-EF331ECE814B}
