@@ -6,10 +6,7 @@ namespace ServiceBusSend
     public class Program
     {
 
-        private static string conn = "Endpoint=sb://prabhonsservicebus.servicebus.windows.net/;" +
-            "SharedAccessKeyName=Send;" +
-            "SharedAccessKey=ljlV20/ZzjMiV184C1uke8R4qhRQYOTOX+ASbCATeg0=;" +
-            "EntityPath=prabhoqueue";
+        private static string conn = "Endpoint=sb://prabhonsservicebus.servicebus.windows.net/;SharedAccessKeyName=send;SharedAccessKey=YEZhfe437X8aWF6rf2O0TIQEJQSyG+kDD+ASbMZZJrY=;EntityPath=prabhoqueue";
         private static string queue_name = "prabhoqueue";
 
         public static void Main(string[] args)
