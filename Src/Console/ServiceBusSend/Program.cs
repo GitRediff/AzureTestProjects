@@ -27,6 +27,7 @@ namespace ServiceBusSend
             foreach(Order _order in _orders)
             {
                 ServiceBusMessage _message = new ServiceBusMessage(_order.ToString());
+                _message.TimeToLive = TimeSpan.FromMinutes(2);
                 _sender.SendMessageAsync(_message).GetAwaiter().GetResult();
                 Console.Beep();
             }
