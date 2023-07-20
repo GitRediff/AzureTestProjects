@@ -9,7 +9,7 @@ namespace BlobTriggerExample
     public class BlobTest
     {
         [FunctionName("BlobTest")]
-        public void Run([BlobTrigger("prabhocontainer/{name}", Connection = "blob-conn")]Stream myBlob, string name, ILogger log)
+        public void Run([BlobTrigger("prabhocontainer/{name}", Connection = "local-conn")]Stream myBlob, string name, ILogger log)
         {
             log.LogInformation($"C# Blob trigger function Processed blob\n Name:{name} \n Size: {myBlob.Length} Bytes");
         }
