@@ -1,7 +1,12 @@
+using MvcWebAppTwo.SingleInterfaceMultiInstances;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IDatabaseService, SqlService>();
+builder.Services.AddScoped<IDatabaseService, MongoService>();
 
 var app = builder.Build();
 
