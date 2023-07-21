@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobTriggerExample", "Azure
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpTrigger", "AzureFunction\HttpTrigger\HttpTrigger.csproj", "{EFA7AD97-8302-4FA9-A98A-F8360AC46A56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpTriggerTest", "Tests\HttpTriggerTest\HttpTriggerTest.csproj", "{AD479C72-39E8-4D5E-973C-F1C9AC4BA494}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpTriggerTest", "Tests\HttpTriggerTest\HttpTriggerTest.csproj", "{AD479C72-39E8-4D5E-973C-F1C9AC4BA494}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSamples", "Console\ConsoleSamples\ConsoleSamples.csproj", "{CD718368-08C3-4EDE-943D-43029BDC3613}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +79,10 @@ Global
 		{AD479C72-39E8-4D5E-973C-F1C9AC4BA494}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD479C72-39E8-4D5E-973C-F1C9AC4BA494}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD479C72-39E8-4D5E-973C-F1C9AC4BA494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD718368-08C3-4EDE-943D-43029BDC3613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD718368-08C3-4EDE-943D-43029BDC3613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD718368-08C3-4EDE-943D-43029BDC3613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD718368-08C3-4EDE-943D-43029BDC3613}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +97,7 @@ Global
 		{06005C0A-3E4D-42B9-AB76-7BAA220A7CA2} = {8F207A85-899A-44BE-8D6B-9DB6A295469C}
 		{610C01F3-49D0-4EE7-93C8-F1F421189981} = {8F207A85-899A-44BE-8D6B-9DB6A295469C}
 		{EFA7AD97-8302-4FA9-A98A-F8360AC46A56} = {8F207A85-899A-44BE-8D6B-9DB6A295469C}
+		{CD718368-08C3-4EDE-943D-43029BDC3613} = {7534AA75-BC03-4229-9990-ECBC66603FE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B69DC1E5-6EF9-4006-A6C6-EF331ECE814B}
