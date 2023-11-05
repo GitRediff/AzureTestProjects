@@ -1,38 +1,34 @@
 ﻿namespace ConsoleSamples
 {
+        //public class StringHelper
+    //{
+    //    public string MakeUpperCase(string input)
+    //    {
+    //        return input.ToUpper();
+    //    }
+    //}
+
+    public static class StringHelper
+    {
+        public static string MakeUpperCase(this string input)
+        {
+            return input.ToUpper();
+        }
+    }
+
     internal class Program
     {
         static void Main(string[] args)
         {
-            List<Warrior> warriors = new List<Warrior>()
-            {
-                new Warrior() { Name="Prasad", Height=172 },
-                new Warrior() { Name="Mahesh", Height=169 },
-                new Warrior() { Name="Mahendra", Height=172 }
-            };
+            //StringHelper objStrHelp = new StringHelper();
+            string name = "mahesh";
 
-            var output = warriors
-                        .GroupBy(x => x.Height)//.ToList();
-                        .Select(x => new
-                        {
-                            value = x.Key,
-                            count = x.Count()
-                        }
-                        );
-
-            foreach (var item in output)
-            {
-                //Console.WriteLine(item.Key + " " + item.Count());
-                Console.WriteLine(item);
-            }
+            string upperCase = name.MakeUpperCase();
+            Console.WriteLine(upperCase);
 
             Console.ReadKey();
         }
     }
 
-    internal class Warrior
-    {
-        public string Name { get; set; }
-        public int Height { get; set; }
-    }
+
 }
