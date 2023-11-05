@@ -1,0 +1,34 @@
+﻿@model Mobile
+@inject MvcWebAppTwo.Services.IMobileService mobiledata
+
+@{
+    ViewData["Title"] = "Create";
+}
+    <form asp-controller="TransientScoped" asp-action="create" method="post">
+        <div>
+            <label asp-for="name"></label>
+            <div>
+                <input asp-for="name">
+            </div>
+        </div>
+        <div>
+            <label asp-for="model"></label>
+            <div>
+                <input asp-for="model">
+            </div>
+        </div>
+        <div>
+            <label asp-for="price"></label>
+            <div>
+                <input asp-for="price">
+            </div>
+        </div>
+
+        <div>
+            <button type="submit">Create</button>
+        </div>
+
+        <div>
+            Total Employees Count = @mobiledata.GetAll().Count().ToString()
+        </div>
+    </form>

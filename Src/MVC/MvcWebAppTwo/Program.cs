@@ -1,9 +1,13 @@
 using MvcWebAppTwo.SingleInterfaceMultiInstances;
+using MvcWebAppTwo.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddMvc();
+builder.Services.AddScoped<IMobileService, MobileService>();
 
 builder.Services.AddScoped<IDatabaseService, SqlService>();
 builder.Services.AddScoped<IDatabaseService, MongoService>();
@@ -23,6 +27,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=TransientScoped}/{action=Create}/{id?}");
 
 app.Run();
